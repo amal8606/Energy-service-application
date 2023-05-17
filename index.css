@@ -1,0 +1,15 @@
+.section {
+  background-image: url("https://www.hashmicro.com/blog/wp-content/uploads/2022/10/Tools-16.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.contact{
+     background-image: url("https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBibHVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.body{
+    background-image: url("https://proest.com/wp-content/uploads/2022/11/Building-Construction-Process-From-Start-To-Finish.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
