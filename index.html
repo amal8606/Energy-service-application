@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-50">
@@ -90,6 +91,7 @@
     >
       <h2>Our Services</h2>
     </div>
+
     <section class="flex m-16 h-96 shadow-2xl border-2">
       <div
         class="h-full bg-green-400 w-full hover:w-[200%] transition-all duration-300 overflow-hidden text-white group"
@@ -177,5 +179,35 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
+    <footer class="p-3 fixed bottom-0 right-0 z-50 group transition-all duration-300">
+      <div class="h-[34rem] w-96 bg-white mb-20 rounded-lg shadow-lg border-1 border-b-black hidden group-hover:block">
+        <div class="h-[20%] w-full bg-blue-400 rounded-t-lg text-white font-medium text-center pt-10">
+<p>chat with us!</p>
+        </div>
+        <div class="h-[60%] w-full p-3 flex">
+<div class="h-12 w-12 bg-red-700 rounded-full">
+
+</div>
+<div class="m-3">
+  <p class="border-2 p-3 rounded-bl-xl bg-blue-500 text-white shadow-lg">Hi, how can i help you &#128515;?</p>
+</div>
+        </div>
+        <div class="h-[20%] w-full border-2 p-3 rounded-b-lg flex">
+          <input 
+          placeholder="Compose your message"
+          class="p-2 w-[80%] border-1 shadow-lg m-2 rounded-md"
+          type="text">
+          <button class="m-2 p-3"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+
+      </div>
+      <button class="bg-blue-500 p-5 rounded-full shadow-xl block  fixed bottom-3 right-3">
+        <i class="fa-solid fa-message text-white fa-xl"></i>
+      </button>
+      <!-- <button
+      class="bg-blue-800 p-5 rounded-full shadow-xl  hidden group-hover:block">
+      <i class="fa-solid fa-xmark text-white fa-xl"></i>
+      </button> -->
+    </footer>
   </body>
 </html>
