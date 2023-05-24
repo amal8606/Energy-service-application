@@ -1,10 +1,6 @@
+
 .section {
   background-image: url("https://www.hashmicro.com/blog/wp-content/uploads/2022/10/Tools-16.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-}
-.contact{
-     background-image: url("https://cdn5.vectorstock.com/i/1000x1000/04/84/house-plan-blueprint-vector-1190484.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -12,4 +8,99 @@ background-size: cover;
     background-image: url("https://proest.com/wp-content/uploads/2022/11/Building-Construction-Process-From-Start-To-Finish.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+}
+.footer{
+  background-image: url("https://images.pexels.com/photos/5582597/pexels-photo-5582597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+}
+@media(max-width:1126px) {
+  .heading{
+    font-size: 1rem;
+  }
+  .navbar{
+    font-size: .7rem;
+
+  }
+  .para{
+    font-size: 20px;
+    text-align: center;
+  }
+  .leadership{
+grid-gap: 1rem;
+  }
+  .postions{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .boxes{
+    max-width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    row-gap: 1rem;
+  }
+.bid{
+  display: grid;
+}
+  
+}
+
+@media(max-width:900px) {
+  .para{
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .video{
+    margin-top: -30rem;
+  }
+  .navbar{
+   display: none;
+  }
+  .services{
+    display: grid;
+    grid-gap:1rem;
+    height: auto;
+  }
+  .menu{
+    display: block;
+  }
+.option:hover{
+  height: auto;
+  width: auto;
+  border-radius: 2px;
+
+}
+.title{
+  font-size: medium;
+}
+.info{
+  font-size: larger;
+}
+.contact{
+  display: grid;
+}
+.contactImg{
+  width: 100%;
+
+}
+.details{
+  font-size: x-large;
+}
+.section1{
+  height: 25rem;
+}
+.group .val{
+  font-size: medium;
+}
+.group:hover .val{
+  font-size: large;
+}
+}
+@media(max-width:400px){
+  .video{
+    margin-top: -35rem;
+  }
+  .heading{
+    font-size: .8rem;
+  }
 }

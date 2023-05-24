@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="mysite-constuction.css" />
+    <link rel="stylesheet" href="index.css" />
     <title>Mysite</title>
   </head>
 
@@ -21,15 +21,15 @@
           src="https://static.wixstatic.com/media/46ad2e_713a3ed09b8347409bdcaf992837bfb5~mv2.png/v1/fill/w_150,h_150,al_c,q_85,enc_auto/compass.png"
           alt=""
         />
-        <h1 class="m-3 text-2xl text-green-900">
+        <h1 class="m-3 text-2xl text-green-900 heading">
           Energy Services & Productions
         </h1>
       </div>
-
-      <div class="flex mr-16 mt-5 gap-4 text-blue-900 font-medium">
+    
+      <div class="flex mr-16 mt-5 gap-4 text-blue-900 font-medium navbar">
         <a
           class="hover border-4 border-transparent hover:border-b-blue-600 transition-all duration-300 mb-6"
-          href="index.html"
+          href="#"
           >Home</a
         >
         <div class="group mt-1">
@@ -38,15 +38,19 @@
             href=""
             >Services</a
           >
-          <ul
-            class="absolute hidden p-3 group-hover:block mt-5 bg-gray-50"
-          >
-            <li class="hover:underline"><a href="mysite-constuction.html">Construction</a></li>
-            <li class="hover:underline"><a href="mysite-mapping&design.html"> Mapping & Design</a></li>
-            <li class="hover:underline"><a href="mysite-permitting.html">Permitting</a></li>
+          <ul class="absolute hidden p-3 group-hover:block mt-5 bg-gray-50">
+            <li class="hover:underline">
+              <a href="mysite-constuction.html">Construction</a>
+            </li>
+            <li class="hover:underline">
+              <a href="mysite-mapping&design.html"> Mapping & Design</a>
+            </li>
+            <li class="hover:underline">
+              <a href="mysite-permitting.html">Permitting</a>
+            </li>
           </ul>
         </div>
-
+    
         <a
           class="hover border-4 border-transparent hover:border-b-blue-600 transition-all duration-300 mb-6"
           href="leadership.html"
@@ -59,7 +63,7 @@
         >
         <a
           class="hover border-4 border-transparent hover:border-b-blue-600 transition-all duration-300 mb-6"
-          href="index.html#contact"
+          href="#contact"
           >Contact</a
         >
         <a
@@ -67,6 +71,57 @@
           href="bid-opportunities.html"
           >Bid Opportunities</a
         >
+      </div>
+      <div class="group menu hidden">
+        <button class="m-3">
+          <i class="fa-solid fa-bars fa-2xl "></i>
+        </button>
+        <div class=" text-blue-900 font-medium group-hover:grid absolute bg-gray-100 -ml-48 p-10 hidden ">
+          <a
+            class="hover border-4 border-transparent hover:border-b-blue-600 transition-all duration-300 mb-6"
+            href="#"
+            >Home</a
+          >
+          <div class="group mb-5">
+            <a
+              class="hover border-4 border-transparent hover:border-b-blue-600 transition-all duration-300 pb-4"
+              href=""
+              >Services</a
+            >
+            <ul class="absolute hidden p-3 mt-5 bg-gray-50">
+              <li class="hover:underline">
+                <a href="mysite-constuction.html">Construction</a>
+              </li>
+              <li class="hover:underline">
+                <a href="mysite-mapping&design.html"> Mapping & Design</a>
+              </li>
+              <li class="hover:underline">
+                <a href="mysite-permitting.html">Permitting</a>
+              </li>
+            </ul>
+          </div>
+    
+          <a
+            class="hover border-4 border-transparent hover:border-b-blue-600 transition-all duration-300 mb-6"
+            href="leadership.html"
+            >Leadership</a
+          >
+          <a
+            class="hover border-4 border-transparent hover:border-b-blue-600 transition-all duration-300 mb-6"
+            href="careeres.html"
+            >Careers</a
+          >
+          <a
+            class="hover border-4 border-transparent hover:border-b-blue-600 transition-all duration-300 mb-6"
+            href="#contact"
+            >Contact</a
+          >
+          <a
+            class="hover border-4 border-transparent hover:border-b-blue-600 transition-all duration-300 mb-6"
+            href="bid-opportunities.html"
+            >Bid Opportunities</a
+          >
+        </div>
       </div>
     </nav>
 
@@ -80,11 +135,11 @@
             class="object-cover h-[40em] w-screen"
           />
           <div class="-my-[30em] p-5">
-            <h1 class="text-5xl text-white font-serif font-bold">
+            <h1 class="text-5xl text-white font-serif font-bold heading">
               Leaders in Quality <br />
               Commercial Construction
             </h1>
-            <p class="mt-5 text-stroke-dark-400 font-semibold text-lg w-[45em]">
+            <p class="mt-5 text-white font-semibold text-lg para">
               Energy Services and Products Corp. (ESPC), a Florida Corporation,
               has been a General Contractor since 1994. Our portfolio consists
               of diverse and complex projects involving all major trades from
@@ -97,12 +152,12 @@
           </div>
         </div>
         <div class="text-center mt-5 p-5">
-          <h1 class="text-dark-500 text-2xl pb-5 border-b-2 border-dark-700">
+          <h1 class="text-dark-500 text-2xl pb-5 border-b-2 border-dark-700 heading">
             Our Services
           </h1>
-          <div class="grid grid-cols-3 gap-5 px-60 py-5">
+          <div class="grid grid-cols-3 boxes gap-10">
             <div
-              class="overflow-hidden hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300"
+              class=" hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300  sm:col-span-1"
             >
               <img
                 src="https://images.pexels.com/photos/6207951/pexels-photo-6207951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -113,7 +168,7 @@
               </h1>
             </div>
             <div
-              class="overflow-hidden hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300"
+              class=" hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300 "
             >
               <img
                 src="https://images.pexels.com/photos/5335018/pexels-photo-5335018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -124,7 +179,7 @@
               </h1>
             </div>
             <div
-              class="overflow-hidden hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300"
+              class=" hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300 "
             >
               <img
                 src="https://images.pexels.com/photos/4515180/pexels-photo-4515180.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -135,7 +190,7 @@
               </h1>
             </div>
             <div
-              class="overflow-hidden hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300"
+              class=" hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300 "
             >
               <img
                 src="https://images.pexels.com/photos/3771111/pexels-photo-3771111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -144,7 +199,7 @@
               <h1 class="text-black font-bold text-xl p-2">Re-Roofing</h1>
             </div>
             <div
-              class="overflow-hidden hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300"
+              class=" hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300 "
             >
               <img
                 src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -153,7 +208,7 @@
               <h1 class="text-black font-bold text-xl p-2">Site Work</h1>
             </div>
             <div
-              class="overflow-hidden hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300"
+              class=" hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300 "
             >
               <img
                 src="https://images.pexels.com/photos/7359566/pexels-photo-7359566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -164,7 +219,7 @@
               </h1>
             </div>
             <div
-              class="overflow-hidden hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300"
+              class=" hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300 "
             >
               <img
                 src="https://images.pexels.com/photos/8853502/pexels-photo-8853502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -173,7 +228,7 @@
               <h1 class="text-black font-bold text-xl p-2">Solar Energy</h1>
             </div>
             <div
-              class="overflow-hidden hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300"
+              class=" hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300 "
             >
               <img
                 src="https://images.pexels.com/photos/13220403/pexels-photo-13220403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -184,7 +239,7 @@
               </h1>
             </div>
             <div
-              class="overflow-hidden hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300"
+              class=" hover:shadow-xl hover:rounded-b-3xl hover:shadow-grey-300 "
             >
               <img
                 src="https://images.pexels.com/photos/3183190/pexels-photo-3183190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
