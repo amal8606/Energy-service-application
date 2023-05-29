@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <title>Bid Opportunities | ESPCFL</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body style="background-image: url('https://static.wixstatic.com/media/46ad2e_871954bd6eef42f79ea88d4b5df6c20e~mv2_d_4385_3289_s_4_2.jpg/v1/fill/w_2379,h_1259,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/46ad2e_871954bd6eef42f79ea88d4b5df6c20e~mv2_d_4385_3289_s_4_2.jpg');  background-size: cover;">
+  </head>
+  <body
+    style="
+      background-image: url('https://static.wixstatic.com/media/46ad2e_871954bd6eef42f79ea88d4b5df6c20e~mv2_d_4385_3289_s_4_2.jpg/v1/fill/w_2379,h_1259,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/46ad2e_871954bd6eef42f79ea88d4b5df6c20e~mv2_d_4385_3289_s_4_2.jpg');
+      background-size: cover;
+    "
+  >
   <nav
   class="border-b-2 pl-16 left-0 flex justify-between border-green-800 fixed w-full bg-gray-100 z-40"
 >
@@ -19,12 +27,12 @@
       alt=""
     />
 
-    <h1 class="m-3 text-2xl text-green-900 heading">
+    <h1 class="m-3 text-md text-green-900 md:text-xl">
       Energy Services & Productions
     </h1>
   </div>
 
-  <div class="flex mr-16 mt-5 gap-4 text-blue-900 font-medium navbar">
+  <div class="hidden mr-16 mt-5 gap-4 text-blue-900 font-medium lg:flex">
     <a
       class="hover border-4 border-transparent hover:border-b-blue-600 transition-all duration-300 mb-6"
       href="index.html"
@@ -68,7 +76,7 @@
       >Bid Opportunities</a
     >
   </div>
-  <div class="group menu hidden">
+  <div class="group block lg:hidden">
     <button class="m-3">
       <i class="fa-solid fa-bars fa-2xl "></i>
     </button>
@@ -120,22 +128,17 @@
     </div>
   </div>
 </nav>
-    <div class="h-screen w-full  flex justify-center">
-        <section class="w-1/2 h-full  flex flex-col items-center relative justify-center ">
-            <div class=" bg-white/50 rounded-lg shadow-md w-1/2  flex items-center p-4 space-x-2 bid">
-                <img class="w-24 h-24 " src="./media/none.png" >
-                <p class="text-lg para">No bids at this time check back soon!</p>
-
-            </div>
-            
-    
-        </section>
-    
-
-
+    <div class="h-screen w-full flex justify-center">
+      <section
+        class="w-1/2 h-full flex flex-col items-center relative justify-center"
+      >
+        <div
+          class="bg-white/50 rounded-lg shadow-md w-1/2 grid items-center p-4 space-x-2 lg:flex"
+        >
+          <img class="w-24 h-24" src="./media/none.png" />
+          <p class="text-lg para">No bids at this time check back soon!</p>
+        </div>
+      </section>
     </div>
-
-    
-    
-</body>
+  </body>
 </html>
